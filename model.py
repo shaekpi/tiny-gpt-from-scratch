@@ -58,8 +58,13 @@ def decode_int(token_id, itos):
         if token_id == i:
             return itos[i]
 
-# Step 7 - decode_ids (not yet solved)
-# TODO: implement
+# Step 7 - decode_ids
+def decode_ids(ids, itos):
+    final = ''
+    for i in ids:
+        final = final + decode_int(i, itos)
+
+    return final
 
 # Step 8 - make_1d_array (not yet solved)
 # TODO: implement
