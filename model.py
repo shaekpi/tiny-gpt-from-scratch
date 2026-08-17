@@ -66,8 +66,11 @@ def decode_ids(ids, itos):
 
     return final
 
-# Step 8 - make_1d_array (not yet solved)
-# TODO: implement
+# Step 8 - make_1d_array
+import numpy as np
+
+def make_1d_array(values):
+    return np.array(values)
 
 # Step 9 - get_array_shape (not yet solved)
 # TODO: implement
