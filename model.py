@@ -84,8 +84,11 @@ import numpy as np
 def get_array_dtype(arr):
     return arr.dtype
 
-# Step 11 - make_2d_zeros (not yet solved)
-# TODO: implement
+# Step 11 - make_2d_zeros
+import numpy as np
+
+def make_2d_zeros(rows, cols):
+    return np.zeros((rows, cols), dtype=np.float64)
 
 # Step 12 - make_2d_random (not yet solved)
 # TODO: implement
